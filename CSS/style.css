@@ -79,13 +79,35 @@ section .container-items{
     justify-content: space-around;
 }
 
+section .container-items .box-itens{
+    width: 30%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    border: 4px solid rgb(153, 152, 152);
+    padding: 15px;
+    margin-top: 10px;
+}
+
+section .container-items .box-itens .textoEinput{
+    margin-left: 10px;
+}
+
+section .container-items .box-itens .textoEinput input{
+    width: 92%;
+    height: 35px;
+    border:0;
+    border-bottom: 2px solid gray;
+    font-size: 18px;
+    text-align: center;
+}
 
 /*Botão Calcular*/
 section .botao{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 

@@ -36,14 +36,14 @@ header .container i{
 }
 
 /*Section*/
-section .container-salario{
+.container-items{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
 
-section .container-salario .box-salario{
+.container-items .box{
     border: 3px solid gray;
     border-radius: 10px;
     padding: 20px;
@@ -52,13 +52,13 @@ section .container-salario .box-salario{
     place-items: center;
 }
 
-section .container-salario .box-salario h3{
+.container-items .box h3{
     text-align: center;
     font-size: 20px;
     text-transform: uppercase;
 }
 
-section .container-salario .box-salario input{
+.container-items .box input{
     margin-top: 10px;
     height: 25px;
     text-align: center;
@@ -67,11 +67,18 @@ section .container-salario .box-salario input{
     font-size: 20px;
 }
 
-section .anuncio{
+main .anuncio{
     margin-top: 25px;
     text-align: center;
     font-size: 17px;
 }
+
+/*Itens*/
+section .container-items{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 /*Botão Calcular*/
 section .botao{
@@ -79,6 +86,7 @@ section .botao{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 section #botaoCalcular{
@@ -100,4 +108,28 @@ section #botaoCalcular:hover{
     background-color: #30E8BF;
     box-shadow: 3px 3px #11998e;
     margin-top: -2px;
+}
+
+/*Footer*/
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3{
+    color:#30E8BF;
+    font-size: 21px;
+    padding: 15px;
+}
+
+footer h3 a{
+    color: #30E8BF;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+footer h3 a:hover{
+    color: #e1e6e5;
 }

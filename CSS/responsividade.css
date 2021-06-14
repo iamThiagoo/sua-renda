@@ -1,0 +1,86 @@
+/*Smarthphones com telas muito pequenas. Ex: Samsung Galaxy Fold*/
+@media screen and (max-width: 280px){
+    .container-items .box h3{
+        font-size: 14px;
+    }
+    .container-items .box input{
+        font-size: 14px;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 480px){
+    .container-items .box{
+        width: 90%;
+    }
+    main .anuncio h3{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    section .container-items{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+    section .container-items .box-itens{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    section .container-items .box-itens .textoEinput h3{
+        font-size: 15px;
+    }
+    section .botao{
+        margin-top: 15px;
+    }
+    section .botao #botaoCalcular{
+        width: 40%;
+    }
+    footer h3, footer h3 a{
+        font-size: 15px;
+    }
+}
+
+/*Tablet e Ipad*/
+@media (min-width:480px) and (max-width:768px){
+    .container-items .box{
+        width: 60%;
+    }
+    main .anuncio h3{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    section .container-items{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+    section .container-items .box-itens{
+        width: 65%;
+        margin-bottom: 15px;
+    }
+    section .botao{
+        margin-top: 15px;
+    }
+    section .botao #botaoCalcular{
+        width: 30%;
+    }
+    footer h3, footer h3 a{
+        font-size: 17px;
+    }
+}
+
+/*Telas de notebook menores*/
+@media (min-width:769px) and (max-width:1000px) {
+    .container-items .box{
+        width: 60%;
+    }
+    main .anuncio h3{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    section .container-items .box-itens .textoEinput h3{
+        font-size: 14px;
+    }
+}

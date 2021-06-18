@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/responsividade.css">
+    <link rel="stylesheet" href="CSS/resultado.css">
 
     <!--Fontes-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -137,14 +138,18 @@
             <input type="button" role="button" value="Calcular" id="botaoCalcular" onclick="resultado()">
         </div>
 
-        <div class="container-resultado">
-            <h3 id="saldoDoMes"></h3>
-        </div>
+        <div class="container-resultados">
+            <div class="box-resultado">
+                <img src="Imagens/Icones do resultado/saldo.png" width="20%" alt="Saldo do mês">
+                <h3 id="saldoDoMes"></h3>
+            </div>
 
-        <div class="container-resultado">
-            <h3 id="resultadoDoGastoMensal"></h3>
+            <div class="box-resultado">
+                <img src="Imagens/Icones do resultado/somaGastos.png" width="20%" alt="Soma dos gastos">
+                <h3 id="somaDosGastosDoMes"></h3>
+            </div>
         </div>
-
+ 
     </section>
     <footer>
         <h3>&copy; 2021 - Thiago Ferreira 

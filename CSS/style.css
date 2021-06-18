@@ -87,6 +87,11 @@ section .container-items .box-itens{
     border: 4px solid rgb(153, 152, 152);
     padding: 15px;
     margin-top: 10px;
+    transition: .8s ease all;
+}
+
+section .container-items .box-itens:hover{
+    margin: -1px 0px 2px 1px;
 }
 
 section .container-items .box-itens .textoEinput{

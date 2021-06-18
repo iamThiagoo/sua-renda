@@ -19,9 +19,23 @@ function resultado(){
     let resultadoMensal = document.querySelector("#saldoDoMes");
     
     if(lucroMensal > 0 ){
-        resultadoMensal.innerHTML = `Seu mês fecha feliz com um saldo positivo de ${lucroMensal} reais 😁`;
-    } else{
-        resultadoMensal.innerHTML = `Seu mês fecha triste com um saldo negativo de ${lucroMensal} reais 😰`;
+        resultadoMensal.innerText = `Seu mês fecha feliz com um SALDO POSITIVO de  ${lucroMensal} reais.`;
+    } 
+    else if(lucroMensal == 0){
+        resultadoMensal.innerText = `Seu mês fecha ZERADO!`;
     }
+    else{
+        resultadoMensal.innerText = `Seu mês fecha bem triste com um SALDO NEGATIVO de  ${lucroMensal} reais.`;
+    }
+
+    let somaMensal = document.querySelector("#somaDosGastosDoMes");
+        somaMensal.innerText = `O seu gasto mensal é de ${somaDosGastosMensal} reais.`;
+        if(somaDosGastosMensal == 0){
+                somaMensal.innerText = `O seu gasto mensal está ZERADO!`;
+            }
+
+    let apareceContainerAoClicar = document.querySelector(".container-resultados");
+    apareceContainerAoClicar.style.display = "flex";
+    apareceContainerAoClicar.style.justifyContent = "space-around";
 }
 

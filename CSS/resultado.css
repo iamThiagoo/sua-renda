@@ -1,0 +1,26 @@
+.container-resultados{
+    display: none;
+    background-color: red;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.box-resultado{  
+    display: flex;
+    align-items: center;
+    width: 35%;
+    background-color: #a9e0d4;
+    padding: 25px;
+    border: 5px solid #11998e;
+    border-radius: 10px;
+    transition: .3s ease all;
+}
+
+.box-resultado:hover{
+    margin: -3px 0 5px 3px;
+}
+
+.box-resultado h3{
+    margin-left: 40px;
+    font-size: 23px;
+}

@@ -92,6 +92,7 @@ section .container-items .box-itens{
 
 section .container-items .box-itens:hover{
     margin: -1px 0px 2px 1px;
+    box-shadow: 2px 2px 10px gray;
 }
 
 section .container-items .box-itens .textoEinput{

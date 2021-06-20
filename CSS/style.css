@@ -92,11 +92,13 @@ section .container-items .box-itens{
 
 section .container-items .box-itens:hover{
     margin: -1px 0px 2px 1px;
-    box-shadow: 2px 2px 10px gray;
+    box-shadow: 2px 2px 10px gray; 
 }
 
 section .container-items .box-itens .textoEinput{
     margin-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
 }
 
 section .container-items .box-itens .textoEinput input{
@@ -104,8 +106,9 @@ section .container-items .box-itens .textoEinput input{
     height: 35px;
     border:0;
     border-bottom: 2px solid gray;
-    font-size: 18px;
     text-align: center;
+    margin-top: 8px;
+    font-size: 17px;
 }
 
 /*Botão Calcular*/

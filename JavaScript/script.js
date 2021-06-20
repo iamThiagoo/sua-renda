@@ -165,6 +165,6 @@ function resultado(){
 } 
 
 function misterio(){
-    alert(`Parece que você encontrou meu enigma!!!
+    alert(`Parece que você encontrou meu easter egg!!!
 Na verdade não é nada demais kkk só quero te desejar um bom dia e que tudo na sua vida dê certo 😊`);
 }

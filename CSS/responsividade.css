@@ -6,7 +6,7 @@
     .container-items .box input{
         font-size: 14px;
     }
-}
+} 
 
 /*Mobile*/
 @media screen and (max-width: 480px){
@@ -38,6 +38,46 @@
     }
     footer h3, footer h3 a{
         font-size: 15px;
+    } 
+    section .container-resultados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4px !important;
+    }
+    .box-resultado{  
+        width: 98% !important;
+        margin-bottom: 10px;
+    }
+    section .container-resultados .box-resultado h3{
+        font-size: 18px !important;
+    }
+    .box-resultado:hover{
+        pointer-events: none;
+    } 
+    section #container-anual #box-anual{
+        width: 98% !important;
+    }
+    section #container-anual #box-anual .textoAnual{
+        width: 100% !important;
+    }
+    section #container-anual #box-anual .textoAnual #tituloAnual{
+        font-size: 40px !important;
+        text-align: center !important;
+    }
+    section #container-anual #box-anual .textoAnual #paragrafoAnuncio{
+        text-align: center !important;
+        font-size: 14px !important;
+    }
+    section #container-anual #box-anual .textoAnual #dadosAnuais, section .relatorioBasico p{
+        font-size: 15px !important;
+        padding-left: 6px;
+    }
+    #imagemAnual{
+        display: none !important;
+    }
+    #agradecimento h2{
+        font-size: 13px
     }
 }
 
@@ -68,6 +108,46 @@
     }
     footer h3, footer h3 a{
         font-size: 17px;
+    }
+    section .container-resultados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4px !important;
+    }
+    .box-resultado{  
+        width: 90% !important;
+        margin-bottom: 10px;
+    }
+    section .container-resultados .box-resultado h3{
+        font-size: 18px !important;
+    }
+    .box-resultado:hover{
+        pointer-events: none;
+    } 
+    section #container-anual #box-anual{
+        width: 90% !important;
+    }
+    section #container-anual #box-anual .textoAnual{
+        width: 100% !important;
+    }
+    section #container-anual #box-anual .textoAnual #tituloAnual{
+        font-size: 50px !important;
+        text-align: center !important;
+    }
+    section #container-anual #box-anual .textoAnual #paragrafoAnuncio{
+        text-align: center !important;
+        font-size: 17px !important;
+    }
+    section #container-anual #box-anual .textoAnual #dadosAnuais, section .relatorioBasico p{
+        font-size: 18px !important;
+        padding-left: 15px;
+    }
+    #imagemAnual{
+        display: none !important;
+    }
+    #agradecimento h2{
+        font-size: 18px;
     }
 }
 

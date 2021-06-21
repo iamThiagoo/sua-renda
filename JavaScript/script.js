@@ -85,14 +85,14 @@ function resultado(){
             textoTelevisaoAnual.innerHTML = `📺 Gasto com <b>TV</b>: R$ ${televisaoAnual}`;
             if(televisaoAnual == 0){
                 textoTelevisaoAnual.innerHTML = `📺 Gasto com <b>TV</b>: sem gasto ou não preenchido.`;
-            }     
+            }
 
     let telefoneAnual = Number(telefonePorMes) * 12;
         let textoTelefoneAnual = document.querySelector("#telefonePorAno");
             textoTelefoneAnual.innerHTML = `☎️ Gasto com <b>TELEFONE</b>: R$ ${telefoneAnual}`;
             if(telefoneAnual == 0){
                 textoTelefoneAnual.innerHTML = `☎️ Gasto com <b>TELEFONE</b>: sem gasto ou não preenchido.`;
-            }     
+            }
 
     let saudeAnual = Number(saudePorMes) * 12;
         let textoSaudeAnual = document.querySelector("#saudePorAno");
@@ -151,15 +151,16 @@ function resultado(){
 
     let lucroAnual = rendaAnual - somaDosGastosAnual;
         let textoLucroAnual = document.querySelector("#lucroAnual");
-            textoLucroAnual.innerHTML = `Seu <b>LUCRO</b> anual gira em torno de R$ ${lucroAnual}`;
+            textoLucroAnual.innerHTML = `Seu <b>GANHO</b> anual gira em torno de R$ ${lucroAnual}`;
             if(lucroAnual > 0){
                 textoLucroAnual.style.color = "#19D327";
             }
             else if(lucroAnual == 0){
-                textoLucroAnual.innerText = `Seu lucro anual é IGUAL a 0 ou você NÃO preencheu sua renda ou seus gastos`;
+                textoLucroAnual.innerHTML = `Seu <b>GANHO</b> anual é IGUAL a 0 ou você NÃO preencheu sua renda ou seus gastos`;
                 textoLucroAnual.style.color = "#0DBAEC";
             }
             else{
+                textoLucroAnual.innerHTML = `Sua <b>PERDA</b> anual gira em torno de R$ ${lucroAnual}`;
                 textoLucroAnual.style.color = "#D80D22";
             }
 } 

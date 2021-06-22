@@ -147,18 +147,18 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 8vh;
 }
 
-footer h3{
+footer h3, footer a{
     color:#30E8BF;
-    font-size: 21px;
-    padding: 15px;
+    font-size: 22px;
 }
 
 footer h3 a{
     color: #30E8BF;
     margin-left: 5px;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 footer h3 a:hover{

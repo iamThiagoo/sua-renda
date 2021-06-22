@@ -151,12 +151,12 @@ function resultado(){
 
     let lucroAnual = rendaAnual - somaDosGastosAnual;
         let textoLucroAnual = document.querySelector("#lucroAnual");
-            textoLucroAnual.innerHTML = `Seu <b>GANHO</b> anual gira em torno de R$ ${lucroAnual}`;
+            textoLucroAnual.innerHTML = `Seu <b>LUCRO</b> anual gira em torno de R$ ${lucroAnual}`;
             if(lucroAnual > 0){
                 textoLucroAnual.style.color = "#19D327";
             }
             else if(lucroAnual == 0){
-                textoLucroAnual.innerHTML = `Seu <b>GANHO</b> anual é IGUAL a 0 ou você NÃO preencheu sua renda ou seus gastos`;
+                textoLucroAnual.innerHTML = `Seu <b>LUCRO</b> anual é IGUAL a 0 ou você NÃO preencheu sua renda ou seus gastos`;
                 textoLucroAnual.style.color = "#0DBAEC";
             }
             else{

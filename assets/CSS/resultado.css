@@ -1,6 +1,11 @@
-section .container-resultados{
+#div-resultado{
     display: none;
-    margin-top: 50px;
+}
+
+section .container-resultados{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
@@ -8,42 +13,34 @@ section .container-resultados .box-resultado{
     display: flex;
     align-items: center;
     width: 35%;
-    background-color: white;
     padding: 25px;
-    border: 5px solid gray;
-    border-radius: 15px;
+    border: 4px solid gray;
+    border-radius: 10px;
     transition: .3s ease all; 
     font-family: 'Quicksand', sans-serif;
 }
 
-section .container-resultados .box-resultado:hover{
-    margin: -3px 0px 5px 3px;
-    box-shadow: 1px 1px 10px gray;
-}
-
 section .container-resultados .box-resultado h3{
     margin-left: 40px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /*Resultado Anual*/
 section #container-anual{
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 40px;
 }
 
 section #container-anual #box-anual{
     display: flex;
     width: 85%;
-    background: white;
-    border: 5px solid gray;
-    border-radius: 15px;
+    background: none;
+    border: 4px solid gray;
+    border-radius: 10px;
     padding-bottom: 30px;
-}
-
-section #container-anual #box-anual:hover{
-    margin: -3px 5px 0px 3px;
-    box-shadow: 2px 2px 10px gray;
 }
 
 section #container-anual #box-anual #imagemAnual{

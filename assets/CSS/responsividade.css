@@ -6,16 +6,20 @@
     .container-items .box input{
         font-size: 14px;
     }
+    main .anuncio h3{
+        padding: 5px;
+    }
 } 
 
 /*Mobile*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 560px){
     .container-items .box{
         width: 90%;
     }
     main .anuncio h3{
         font-size: 14px;
         margin-bottom: 15px;
+        padding: 10px;
     }
     section .container-items{
         display: flex;
@@ -24,7 +28,7 @@
         margin: 0;
     }
     section .container-items .box-itens{
-        width: 90%;
+        width: 94%;
         margin-bottom: 15px;
     }
     section .container-items .box-itens .textoEinput h3{
@@ -40,44 +44,37 @@
         font-size: 15px;
     } 
     section .container-resultados{
-        display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 4px !important;
-    }
-    .box-resultado{  
-        width: 98% !important;
         margin-bottom: 10px;
     }
-    section .container-resultados .box-resultado h3{
-        font-size: 18px !important;
+    section .container-resultados .box-resultado{  
+        width: 94%;
+        margin-bottom: 10px;
     }
-    .box-resultado:hover{
-        pointer-events: none;
-    } 
     section #container-anual #box-anual{
-        width: 98% !important;
+        width: 94%;
+    }
+    section #container-anual #box-anual #imagemAnual{
+        display: none;
     }
     section #container-anual #box-anual .textoAnual{
-        width: 100% !important;
+        width: 100%;
     }
     section #container-anual #box-anual .textoAnual #tituloAnual{
-        font-size: 40px !important;
-        text-align: center !important;
+        font-size: 40px;
+        text-align: center;
     }
     section #container-anual #box-anual .textoAnual #paragrafoAnuncio{
-        text-align: center !important;
-        font-size: 14px !important;
-    }
-    section #container-anual #box-anual .textoAnual #dadosAnuais, section .relatorioBasico p{
-        font-size: 15px !important;
-        padding-left: 6px;
-    }
-    #imagemAnual{
-        display: none !important;
+        text-align: center;
+        font-size: 14px
     }
     #agradecimento h2{
-        font-size: 13px
+        font-size: 14px;
+    }
+    section #container-anual #box-anual .textoAnual #dadosAnuais, section .relatorioBasico p{
+        font-size: 14px;
+        padding-left: 6px;
     }
 }
 
@@ -109,45 +106,41 @@
     footer h3, footer h3 a{
         font-size: 17px;
     }
-    section .container-resultados{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 4px !important;
-    }
-    .box-resultado{  
-        width: 90% !important;
-        margin-bottom: 10px;
-    }
-    section .container-resultados .box-resultado h3{
-        font-size: 18px !important;
-    }
-    .box-resultado:hover{
-        pointer-events: none;
-    } 
-    section #container-anual #box-anual{
-        width: 90% !important;
+    section #container-anual #box-anual #imagemAnual{
+        display: none;
     }
     section #container-anual #box-anual .textoAnual{
-        width: 100% !important;
+        width: 100%;
     }
     section #container-anual #box-anual .textoAnual #tituloAnual{
-        font-size: 50px !important;
-        text-align: center !important;
+        font-size: 50px;
+        text-align: center;
     }
     section #container-anual #box-anual .textoAnual #paragrafoAnuncio{
-        text-align: center !important;
-        font-size: 17px !important;
+        text-align: center;
+        font-size: 17px;
     }
     section #container-anual #box-anual .textoAnual #dadosAnuais, section .relatorioBasico p{
-        font-size: 18px !important;
-        padding-left: 15px;
+        font-size: 15px;
+        padding-left: 10px;
     }
-    #imagemAnual{
-        display: none !important;
+    section .container-items .box-itens .textoEinput h3{
+        font-size: 15px;
     }
-    #agradecimento h2{
-        font-size: 20px;
+}
+
+@media (min-width:500px) and (max-width:1200px){
+    main .anuncio h3{
+        padding: 0px 5px;
+    }
+    section .container-items .box-itens .textoEinput h3{
+        font-size: 14px;
+    }
+}
+
+@media (min-width:692px) and (max-width:950px){
+    section .container-items .box-itens .textoEinput h3{
+        font-size: 12.5px;
     }
 }
 
@@ -159,8 +152,5 @@
     main .anuncio h3{
         font-size: 15px;
         margin-bottom: 15px;
-    }
-    section .container-items .box-itens .textoEinput h3{
-        font-size: 14px;
     }
 }

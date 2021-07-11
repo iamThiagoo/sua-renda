@@ -16,6 +16,15 @@
     text-decoration: none;
 }
 
+*::-webkit-scrollbar{
+    background-color: white;
+    width: 12px;
+}
+
+*::-webkit-scrollbar-thumb{
+    background: var(--green-dark);
+}
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 60px;

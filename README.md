@@ -6,8 +6,8 @@
 </div><br>
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/69599810/125522912-3568d519-2171-4a17-875d-532f7ebebc33.gif" width="20%">
-<img src="https://user-images.githubusercontent.com/69599810/125522264-6fc5d684-4bc1-450f-81f7-e2311ef6112b.gif" width="77%">
+<img src="https://user-images.githubusercontent.com/69599810/125522912-3568d519-2171-4a17-875d-532f7ebebc33.gif" width="20%" alt="Apresentação do projeto (MOBILE)">
+<img src="https://user-images.githubusercontent.com/69599810/125522264-6fc5d684-4bc1-450f-81f7-e2311ef6112b.gif" width="77%" alt="Apresentação do projeto (DESKTOP/WEB)">
 </p>
 
 <h3 align="center">Link do projeto: https://suarenda.netlify.app/index.html</h3><br>

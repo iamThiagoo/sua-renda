@@ -12,7 +12,7 @@
 } 
 
 /*Mobile*/
-@media screen and (max-width: 560px){
+@media screen and (max-width: 690px){
     .container-items .box{
         width: 90%;
     }
@@ -22,20 +22,15 @@
         padding: 10px;
     }
     section .container-items{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin: 0;
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
     section .container-items .box-itens{
         width: 94%;
-        margin-bottom: 15px;
+        padding: 10px;
     }
     section .container-items .box-itens .textoEinput h3{
         font-size: 15px;
-    }
-    section .botao{
-        margin-top: 15px;
     }
     section .botao #botaoCalcular{
         width: 40%;
@@ -67,34 +62,32 @@
     }
     section #container-anual #box-anual .textoAnual #paragrafoAnuncio{
         text-align: center;
-        font-size: 14px
+        font-size: 15px
     }
     #agradecimento h2{
         font-size: 14px;
     }
     section #container-anual #box-anual .textoAnual #dadosAnuais, section .relatorioBasico p{
-        font-size: 14px;
+        font-size: 16px;
         padding-left: 6px;
     }
 }
 
 /*Tablet e Ipad*/
-@media (min-width:480px) and (max-width:768px){
+@media (min-width:755px) and (max-width:1024px){
     .container-items .box{
-        width: 60%;
+        margin-top: 15px;
+        width: 50%;
     }
     main .anuncio h3{
         font-size: 15px;
         margin-bottom: 15px;
     }
     section .container-items{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin: 0;
+        grid-template-columns: 1fr 1fr;
     }
     section .container-items .box-itens{
-        width: 65%;
+        width: 90%;
         margin-bottom: 15px;
     }
     section .botao{
@@ -130,17 +123,32 @@
 }
 
 @media (min-width:500px) and (max-width:1200px){
+    .container-items .box{
+        width: 60%;
+    }
+    section .container-items{
+        grid-template-columns: 1fr 1fr;
+    }
     main .anuncio h3{
         padding: 0px 5px;
     }
     section .container-items .box-itens .textoEinput h3{
         font-size: 14px;
     }
+    section #container-anual #box-anual .textoAnual{
+        width: 100%;
+    }
+    section #container-anual #box-anual .textoAnual #dadosAnuais, section .relatorioBasico p{
+        font-size: 16px;
+    }
 }
 
 @media (min-width:692px) and (max-width:950px){
     section .container-items .box-itens .textoEinput h3{
         font-size: 12.5px;
+    }
+    section #container-anual #box-anual #imagemAnual{
+        display: none;
     }
 }
 
